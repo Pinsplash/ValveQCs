@@ -1,0 +1,54 @@
+// Created by Crowbar 0.74
+
+$modelname "props_interiors\Furniture_Desk01a.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "Furniture_Desk01a_reference.smd"
+}
+
+
+$surfaceprop "wood_crate"
+
+$contents "solid"
+
+$illumposition 0 0 -0.073
+
+$cdmaterials "models\props_interiors\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -20.131 -36.206 -21.067 20.428 36.196 21.104
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"furniture_desk01a_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "furniture_desk01a_physics.smd"
+{
+	$mass 100
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 8
+
+}
+
+$keyvalues
+{
+	prop_data 
+	{
+		"base" "Wooden.Huge"
+		"allowstatic" "1"
+	}
+}

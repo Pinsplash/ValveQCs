@@ -1,0 +1,50 @@
+// Created by Crowbar 0.74
+
+$modelname "props_junk/garbage256_composite001b.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "garbage256_composite001b_reference.smd"
+}
+
+$lod 30
+{
+	replacemodel "garbage256_composite001b_reference.smd" "garbage256_composite001b_reference_lod1.smd"
+	nofacial
+}
+
+$surfaceprop "cardboard"
+
+$contents "solid"
+
+$illumposition -0.339 1 -0.033
+
+$cdmaterials "models\props_junk\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -27.173 -132.448 -5 27.296 128.387 5.002
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"garbage256_composite001b_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "garbage256_composite001b_physics.smd"
+{
+	$mass 30
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 1
+
+}

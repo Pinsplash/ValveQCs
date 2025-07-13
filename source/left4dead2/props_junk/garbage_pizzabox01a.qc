@@ -1,0 +1,53 @@
+// Created by Crowbar 0.74
+
+$modelname "props_junk\garbage_pizzabox01a.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "garbage_pizzabox01a_reference.smd"
+}
+
+
+$surfaceprop "cardboard"
+
+$contents "solid"
+
+$illumposition 0 0 0.031
+
+$cdmaterials "models\props_junk\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -10.007 -11.497 -3.045 10.007 11.497 3.057
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"garbage_pizzabox01a_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "garbage_pizzabox01a_physics.smd"
+{
+	$mass 3
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 3
+
+}
+
+$keyvalues
+{
+	prop_data 
+	{
+		"base" "Cardboard.physics"
+	}
+}

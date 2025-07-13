@@ -1,0 +1,44 @@
+// Created by Crowbar 0.74
+
+$modelname "Props_Doors\DoorGlassMain01_DM03_F.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "DoorGlassMain01_DM03_F_REF.smd"
+}
+
+
+$surfaceprop "Metal"
+
+$contents "solid"
+
+$illumposition 27.927 1.159 26
+
+$cdmaterials "models\Props_Doors\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -9.173 0 0 6.351 56.854 53
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"doorglassmain01_dm03_f_anims\idle.smd"
+	activity "act_idle" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "doorglassmain01_dm03_f_physics.smd"
+{
+	$mass 50
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+
+}

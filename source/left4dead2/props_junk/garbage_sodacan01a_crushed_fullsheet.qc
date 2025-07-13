@@ -1,0 +1,53 @@
+// Created by Crowbar 0.74
+
+$modelname "props_junk\garbage_sodacan01a_crushed_fullsheet.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "garbage_sodacan01a_crushed_fullsheet.smd"
+}
+
+
+$surfaceprop "metalvent"
+
+$contents "solid"
+
+$illumposition 0.141 -0.043 0.231
+
+$cdmaterials "models\props_junk\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -5.018 -5.883 -3.392 4.815 5.088 4.963
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"garbage_sodacan01a_crushed_fullsheet_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "garbage_sodacan01a_crushed_fullsheet_physics.smd"
+{
+	$mass 5
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 3
+
+}
+
+$keyvalues
+{
+	prop_data 
+	{
+		"base" "metal.small"
+	}
+}

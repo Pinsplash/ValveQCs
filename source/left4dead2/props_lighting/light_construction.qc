@@ -1,0 +1,52 @@
+// Created by Crowbar 0.74
+
+$modelname "props_Lighting\light_construction.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "light_construction.smd"
+}
+
+
+$surfaceprop "metal"
+
+$contents "solid"
+
+$illumposition -0.008 0.002 -0.796
+
+$cdmaterials "models\props_Lighting\"
+
+$texturegroup "skinfamilies"
+{
+	{ "light_construction"    }
+	{ "light_construction_on" }
+}
+
+$cbox 0 0 0 0 0 0
+
+$bbox -5.071 -5.071 -10.091 5.071 5.071 6.21
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"light_construction_anims\idle.smd"
+	activity "act_idle" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "light_construction_physics.smd"
+{
+	$mass 300
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 1
+
+}

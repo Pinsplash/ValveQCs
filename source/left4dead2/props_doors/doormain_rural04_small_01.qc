@@ -1,0 +1,53 @@
+// Created by Crowbar 0.74
+
+$modelname "Props_Doors\DoorMain_rural04_Small_01.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "DoorMain04_Small_01_REF.smd"
+}
+
+
+$surfaceprop "Wood"
+
+$contents "solid"
+
+$illumposition 24.065 0 -24.201
+
+$cdmaterials "models\Props_Doors\"
+
+$texturegroup "skinfamilies"
+{
+	{ "offdra_DM4"      }
+	{ "DoorMain_Skin07" }
+	{ "DoorMain_Skin08" }
+	{ "DoorMain_Skin09" }
+	{ "DoorMain_Skin10" }
+}
+
+$cbox 0 0 0 0 0 0
+
+$bbox -2.602 0 -53.599 2.602 49.729 6.095
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"doormain_rural04_small_01_anims\idle.smd"
+	activity "act_idle" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "doormain_rural04_small_01_physics.smd"
+{
+	$mass 50
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+
+}

@@ -1,0 +1,52 @@
+// Created by Crowbar 0.74
+
+$modelname "props_downtown/metal_door_112_16_frame.mdl"
+
+$staticprop
+
+$bodygroup "body"
+{
+	studio "metal_door_112_16_frame_reference.smd"
+}
+
+
+$surfaceprop "metal"
+
+$contents "solid"
+
+$illumposition 28 0 58.572
+
+$cdmaterials "models\props_downtown\"
+$cdmaterials ""
+
+$texturegroup "skinfamilies"
+{
+	{ "metal_door"   }
+	{ "metal_door02" }
+}
+
+$cbox 0 0 0 0 0 0
+
+$bbox -9.302 -5.344 -0.25 9.351 61.104 117.394
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "ref" {
+	"metal_door_112_16_frame_anims\ref.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "metal_door_112_16_frame_physics.smd"
+{
+	$mass 61.45145
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 4
+
+}

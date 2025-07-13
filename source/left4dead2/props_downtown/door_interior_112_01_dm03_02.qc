@@ -1,0 +1,46 @@
+// Created by Crowbar 0.74
+
+$modelname "props_downtown/door_interior_112_01_dm03_02.mdl"
+
+$staticprop
+
+$bodygroup "body"
+{
+	studio "door_interior_112_01_dm03_02_reference.smd"
+}
+
+
+$surfaceprop "default"
+
+$contents "solid"
+
+$illumposition 24.766 -0.403 40.374
+
+$cdmaterials "models\props_downtown"
+$cdmaterials ""
+
+$cbox 0 0 0 0 0 0
+
+$bbox -0.781 0 0 1.613 49.798 80.977
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "ref" {
+	"door_interior_112_01_dm03_02_anims\ref.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "door_interior_112_01_dm03_02_physics.smd"
+{
+	$mass 9.316079
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 3
+
+}

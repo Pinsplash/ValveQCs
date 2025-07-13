@@ -1,0 +1,44 @@
+// Created by Crowbar 0.74
+
+$modelname "props_unique\Wooden_Barricade_break1.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "Wooden_Barricade_break1.smd"
+}
+
+
+$surfaceprop "wood"
+
+$contents "solid"
+
+$illumposition 4.5 -2.363 60.273
+
+$cdmaterials "models\props_unique\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -66.321 -47.749 -2.391 71.048 57.066 124.155
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"wooden_barricade_break1_anims\idle.smd"
+	activity "act_idle" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "wooden_barricade_break1_physics.smd"
+{
+	$mass 500
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+
+}

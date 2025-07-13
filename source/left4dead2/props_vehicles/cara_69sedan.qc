@@ -1,0 +1,56 @@
+// Created by Crowbar 0.74
+
+$modelname "props_vehicles\carA_69sedan.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "carA_69sedan_reference.smd"
+}
+
+
+$surfaceprop "metalvehicle"
+
+$contents "solid"
+
+$illumposition 2.777 1.412 31.39
+
+$noforcedfade
+
+$cdmaterials "models\props_vehicles\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -123.069 -48.744 -1.544 124.912 53.606 65.653
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"cara_69sedan_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "cara_69sedan_physics.smd"
+{
+	$mass 1500
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 13
+
+}
+
+$keyvalues
+{
+	prop_data 
+	{
+		"base" "Metal.Large"
+		"allowstatic" "1"
+	}
+}
