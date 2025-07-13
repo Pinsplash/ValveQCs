@@ -11,7 +11,7 @@ Source games:
 * **Half-Life 2: Episode One:** ✔
 * **Half-Life 2: Episode Two:** ✔
 * **Half-Life 2: Lost Coast:** ✔
-* **Half-Life Deathmatch: Source:** ❌
+* **Half-Life Deathmatch: Source:** ✔
 * **Left 4 Dead:** ❌
 * **Left 4 Dead 2:** ✔
 * **Portal**: ✔
