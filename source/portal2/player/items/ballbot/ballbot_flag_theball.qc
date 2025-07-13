@@ -1,0 +1,75 @@
+// Created by Crowbar 0.74
+
+$modelname "player/items/ballbot/ballbot_flag_theball.mdl"
+
+$bodygroup "default"
+{
+	studio "theball_flag_model.smd"
+}
+
+
+$surfaceprop "default"
+
+$contents "solid"
+
+$illumposition 25.299 12.988 29.976
+
+$cdmaterials "models\player\coop_bots\Items"
+$cdmaterials ""
+
+$cbox 0 0 0 0 0 0
+
+$bbox -25.977 -5.703 -11.214 0 56.3 71.166
+
+$definebone "theball_flag_model" "" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "aerial_jigglebone" "theball_flag_model" -5.702955 56.300407 -11.214129 0 0 0 0 0 0 0 0 0
+$definebone "joint1" "aerial_jigglebone" 0 11.588081 -3.795648 0 180.000005 176.996498 0 0 0 0 0 0
+$definebone "joint2" "joint1" 0 -0.066292 3.79739 0 0 0 0 0 0 0 0 0
+
+$jigglebone "joint1"
+{
+	is_flexible
+	{
+		length 7
+		tip_mass 100
+		pitch_stiffness 20
+		pitch_damping 8
+		yaw_stiffness 6
+		yaw_damping 8
+		along_stiffness 100
+		along_damping 0
+		pitch_constraint -12 25
+		pitch_friction 0
+		pitch_bounce 0
+		yaw_constraint -79.999998 25
+		yaw_friction 0
+		yaw_bounce 0
+	}
+}
+$jigglebone "joint2"
+{
+	is_flexible
+	{
+		length 7
+		tip_mass 100
+		pitch_stiffness 60
+		pitch_damping 4
+		yaw_stiffness 40
+		yaw_damping 6
+		along_stiffness 100
+		along_damping 0
+		pitch_constraint -12 12
+		pitch_friction 0
+		pitch_bounce 0
+		yaw_constraint -30.000001 30.000001
+		yaw_friction 0
+		yaw_bounce 0
+	}
+}
+
+$sequence "idle" {
+	"ballbot_flag_theball_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}

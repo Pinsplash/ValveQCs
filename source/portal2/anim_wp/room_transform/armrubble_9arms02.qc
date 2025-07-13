@@ -1,0 +1,85 @@
+// Created by Crowbar 0.74
+
+$modelname "anim_wp/room_transform/armrubble_9arms02.mdl"
+
+$bodygroup "default"
+{
+	studio "armrubble_9arms02_model.smd"
+}
+
+
+$surfaceprop "default"
+
+$contents "solid"
+
+$illumposition 1.611 -5.73 9.437
+
+$cdmaterials "models\props_destruction"
+$cdmaterials ""
+
+$cbox 0 0 0 0 0 0
+
+$bbox -143.727 -138.261 -15.735 155.188 141.483 34.609
+
+$definebone "baked_nxRigidBody125" "" 11.789216 10.975292 129.203369 18.862915 -0.480101 -7.151401 0 0 0 0 0 0
+$definebone "baked_nxRigidBody117" "" 19.788807 1.244607 57.771748 -3.326032 1.351976 -2.736298 0 0 0 0 0 0
+$definebone "baked_nxRigidBody116" "" -20.563614 2.026524 17.687664 33.942516 -7.275853 -2.668941 0 0 0 0 0 0
+$definebone "baked_nxRigidBody115" "" -1.724423 6.440768 106.292427 -40.028081 112.882495 62.421037 0 0 0 0 0 0
+$definebone "baked_nxRigidBody114" "" 120.403374 1.344686 -36.522419 36.529423 -3.896303 -3.575148 0 0 0 0 0 0
+$definebone "baked_nxRigidBody113" "" 3.300743 1.407088 14.100492 -38.81758 -6.052563 -0.248831 0 0 0 0 0 0
+$definebone "baked_nxRigidBody112" "" 36.120049 8.52369 -23.221771 -24.960047 -177.000951 -1.823164 0 0 0 0 0 0
+$definebone "baked_nxRigidBody111" "" 116.784584 4.135237 85.510406 56.329827 15.929132 21.935723 0 0 0 0 0 0
+$definebone "baked_nxRigidBody110" "" -48.943321 1.143828 119.813591 -38.182001 -31.543118 -37.874382 0 0 0 0 0 0
+$definebone "baked_nxRigidBody135" "" -54.988743 2.071148 41.629601 16.239229 22.414261 1.537275 0 0 0 0 0 0
+$definebone "baked_nxRigidBody134" "" 21.438688 0.192272 -30.635855 42.143404 -88.274956 -95.121285 0 0 0 0 0 0
+$definebone "baked_nxRigidBody137" "" -75.00753 4.746033 85.070999 -13.672682 67.767983 -17.663646 0 0 0 0 0 0
+$definebone "baked_nxRigidBody136" "" -92.718582 1.17588 -73.579948 5.826757 65.431177 -4.820733 0 0 0 0 0 0
+$definebone "baked_nxRigidBody131" "" 28.594572 0.306719 24.078367 2.981863 -3.001265 11.858652 0 0 0 0 0 0
+$definebone "baked_nxRigidBody130" "" 51.205723 6.839548 -98.314682 2.871506 3.473026 9.10871 0 0 0 0 0 0
+$definebone "baked_nxRigidBody133" "" 52.220562 11.298807 20.020712 37.300203 -26.858419 -17.209737 0 0 0 0 0 0
+$definebone "baked_nxRigidBody132" "" 6.870152 2.450147 76.783104 29.064487 15.320049 21.24139 0 0 0 0 0 0
+$definebone "baked_nxRigidBody108" "" 20.196005 4.291321 -6.951152 44.663591 -11.189515 2.375761 0 0 0 0 0 0
+$definebone "baked_nxRigidBody119" "" -8.387406 14.412182 -45.811691 21.759338 2.55233 -2.095215 0 0 0 0 0 0
+$definebone "baked_nxRigidBody139" "" 17.91457 4.746287 56.911549 -4.614321 63.999528 -8.528379 0 0 0 0 0 0
+$definebone "baked_nxRigidBody118" "" 35.146034 0.782248 52.302662 14.002649 -12.404738 -17.103203 0 0 0 0 0 0
+$definebone "baked_nxRigidBody140" "" -33.406773 2.37686 110.608643 11.991802 91.024476 22.65885 0 0 0 0 0 0
+$definebone "baked_nxRigidBody104" "" -52.12825 0.820362 22.344858 47.403292 11.157829 10.157775 0 0 0 0 0 0
+$definebone "baked_nxRigidBody123" "" -88.317657 5.551327 112.128098 12.192977 -3.087459 12.233181 0 0 0 0 0 0
+$definebone "baked_nxRigidBody106" "" 67.332214 2.526521 -123.246284 5.131705 -8.358874 4.902031 0 0 0 0 0 0
+$definebone "baked_nxRigidBody121" "" 7.886712 9.309471 -12.496964 24.795417 -2.166065 -7.622462 0 0 0 0 0 0
+$definebone "baked_nxRigidBody100" "" -11.179516 0.668384 138.910339 -38.37761 11.855727 -5.410019 0 0 0 0 0 0
+$definebone "baked_nxRigidBody101" "" 0.579735 7.232475 21.558201 1.717324 -0.207014 0.43606 0 0 0 0 0 0
+$definebone "baked_nxRigidBody102" "" 21.653931 0.715436 23.990665 -37.622738 11.543771 -5.43751 0 0 0 0 0 0
+$definebone "baked_nxRigidBody103" "" -58.585659 0.698148 90.007195 52.999116 29.540616 26.18685 0 0 0 0 0 0
+$definebone "baked_nxRigidBody138" "" -51.007053 5.91486 36.988403 4.867098 81.293342 0.451111 0 0 0 0 0 0
+$definebone "baked_nxRigidBody141" "" -90.911385 17.897549 -6.642925 13.17977 28.985417 4.496223 0 0 0 0 0 0
+$definebone "baked_nxRigidBody128" "" 0.454941 3.101669 82.278717 4.66725 4.974661 11.563997 0 0 0 0 0 0
+$definebone "baked_nxRigidBody143" "" -8.952214 12.373403 -6.7444 9.810964 9.015876 -8.5253 0 0 0 0 0 0
+$definebone "baked_nxRigidBody144" "" 106.382423 5.788325 -32.242249 71.276248 -20.6622 -15.886692 0 0 0 0 0 0
+$definebone "baked_nxRigidBody109" "" -53.593811 0.911638 62.727814 41.348077 3.927583 19.123814 0 0 0 0 0 0
+$definebone "baked_nxRigidBody105" "" 13.44653 1.647599 9.152838 7.207328 -6.220956 99.828911 0 0 0 0 0 0
+$definebone "baked_nxRigidBody107" "" -34.987122 1.479408 58.082878 22.106606 -12.259205 -2.997612 0 0 0 0 0 0
+$definebone "baked_nxRigidBody126" "" 0.830584 5.729183 25.043602 0.341482 55.019114 -7.873359 0 0 0 0 0 0
+$definebone "baked_nxRigidBody124" "" -116.248741 14.537767 -7.448489 24.093665 5.940638 -6.767595 0 0 0 0 0 0
+$definebone "baked_nxRigidBody127" "" 84.803413 5.121472 11.97894 2.917734 48.555566 14.876277 0 0 0 0 0 0
+
+
+$sectionframes 30 299
+
+$sequence "BindPose" {
+	"armrubble_9arms02_anims\BindPose.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "anim" {
+	"armrubble_9arms02_anims\anim.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 24
+}
+
+$keyvalues
+{
+}

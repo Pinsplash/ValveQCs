@@ -1,0 +1,170 @@
+// Created by Crowbar 0.74
+
+$modelname "anim_wp/arm_interior_192/laserplatform_rubble.mdl"
+
+$bodygroup "default"
+{
+	studio "laserplatform_rubble_model.smd"
+}
+
+
+$surfaceprop "default"
+
+$contents "solid"
+
+$illumposition -10.877 9.062 11.209
+
+$cdmaterials "models\props_destruction"
+$cdmaterials ""
+
+$cbox 0 0 0 0 0 0
+
+$bbox -175.787 -153.205 -43.253 157.663 131.451 65.672
+
+$definebone "laserplatform_rubble126" "" -56.957584 3.990852 75.4431 8.302102 48.359631 59.525283 0 0 0 0 0 0
+$definebone "laserplatform_rubble84" "" -16.83737 -0.111939 70.236572 22.873236 -13.251299 24.256773 0 0 0 0 0 0
+$definebone "laserplatform_rubble125" "" -91.093315 5.512032 77.640945 -4.606457 40.341812 52.164914 0 0 0 0 0 0
+$definebone "laserplatform_rubble63" "" 18.077246 0.54891 -17.462286 -2.330609 68.266402 -14.373162 0 0 0 0 0 0
+$definebone "laserplatform_rubble124" "" -101.2052 1.663371 -68.33551 -9.24996 49.530353 28.805459 0 0 0 0 0 0
+$definebone "laserplatform_rubble87" "" 62.769539 0.253926 100.180458 -46.952127 -28.687054 59.357192 0 0 0 0 0 0
+$definebone "laserplatform_rubble106" "" -20.287079 0.138534 22.842064 49.956 22.74907 84.019694 0 0 0 0 0 0
+$definebone "laserplatform_rubble86" "" -5.164441 7.616597 20.313156 -4.041843 55.667473 26.066232 0 0 0 0 0 0
+$definebone "laserplatform_rubble45" "" 22.278427 0.374067 5.75469 -23.53739 -5.090195 -0.562889 0 0 0 0 0 0
+$definebone "laserplatform_rubble129" "" -98.198395 15.685678 8.48177 3.737428 7.434318 39.186294 0 0 0 0 0 0
+$definebone "laserplatform_rubble51" "" 67.866806 -0.416912 -18.153524 -4.427069 52.411416 9.968358 0 0 0 0 0 0
+$definebone "laserplatform_rubble128" "" -13.372646 6.209316 75.072037 16.512464 64.353878 58.035264 0 0 0 0 0 0
+$definebone "laserplatform_rubble83" "" 110.72274 3.153401 105.200729 67.772443 -122.222205 125.058278 0 0 0 0 0 0
+$definebone "laserplatform_rubble32" "" 22.276213 0.20927 -156.481812 -0.711121 -3.527333 8.362721 0 0 0 0 0 0
+$definebone "laserplatform_rubble82" "" 8.253609 5.359285 30.117882 -3.297325 -7.103537 -87.665608 0 0 0 0 0 0
+$definebone "laserplatform_rubble40" "" 6.73215 0.910877 62.254833 18.305655 -5.055905 -2.239631 0 0 0 0 0 0
+$definebone "laserplatform_rubble81" "" 17.795874 5.344846 -56.899807 16.302932 -17.788328 41.818315 0 0 0 0 0 0
+$definebone "laserplatform_rubble22" "" -10.474865 6.026471 -5.002926 13.51403 40.088095 -15.38329 0 0 0 0 0 0
+$definebone "laserplatform_rubble80" "" -45.843136 3.158892 107.447853 -1.101012 -19.891806 54.231272 0 0 0 0 0 0
+$definebone "laserplatform_rubble72" "" 44.478207 4.093125 -31.345274 1.693526 -19.735753 9.144542 0 0 0 0 0 0
+$definebone "laserplatform_rubble52" "" 2.560904 1.369495 46.638542 10.07541 -8.128489 2.764233 0 0 0 0 0 0
+$definebone "laserplatform_rubble73" "" 24.865498 3.001556 2.334811 -1.67826 -16.541806 34.675607 0 0 0 0 0 0
+$definebone "laserplatform_rubble43" "" -5.107699 0.156052 9.695206 -13.694802 -13.520103 -1.445567 0 0 0 0 0 0
+$definebone "laserplatform_rubble70" "" -13.783827 -0.258452 92.709976 2.318837 -19.143627 36.757008 0 0 0 0 0 0
+$definebone "laserplatform_rubble30" "" -50.450031 -0.073535 -17.324207 -3.465493 7.459041 1.669129 0 0 0 0 0 0
+$definebone "laserplatform_rubble71" "" -68.333794 6.332799 79.011116 44.385151 -24.855407 19.286082 0 0 0 0 0 0
+$definebone "laserplatform_rubble76" "" 79.42955 7.891324 -57.564159 -42.741005 15.170888 -170.055427 0 0 0 0 0 0
+$definebone "laserplatform_rubble100" "" -63.296669 -1.347224 60.204838 12.945815 -20.25518 49.699735 0 0 0 0 0 0
+$definebone "laserplatform_rubble78" "" -66.72168 2.387023 47.555946 41.768864 -28.626026 19.805208 0 0 0 0 0 0
+$definebone "laserplatform_rubble49" "" -101.684853 0.817583 -32.243824 9.332702 3.883415 -9.493074 0 0 0 0 0 0
+$definebone "laserplatform_rubble79" "" 33.130672 5.120445 -13.089814 16.43817 -22.575481 29.134933 0 0 0 0 0 0
+$definebone "laserplatform_rubble53" "" 37.371643 2.925244 -24.583622 -0.748532 -2.047569 -2.00895 0 0 0 0 0 0
+$definebone "laserplatform_rubble130" "" 72.664909 11.209421 55.294498 15.524243 -32.382412 15.785571 0 0 0 0 0 0
+$definebone "laserplatform_rubble36" "" -23.068348 1.034855 50.397484 2.589858 -20.008493 -64.497551 0 0 0 0 0 0
+$definebone "laserplatform_rubble31" "" 5.402151 0.025308 -34.715221 -1.48474 1.884358 9.28315 0 0 0 0 0 0
+$definebone "laserplatform_rubble37" "" 89.374664 3.586656 22.05575 -5.528303 9.992366 8.631539 0 0 0 0 0 0
+$definebone "laserplatform_rubble85" "" -20.992403 0.935987 42.470421 -7.193289 -2.840262 35.280857 0 0 0 0 0 0
+$definebone "laserplatform_rubble35" "" -71.877296 0.130424 12.665051 7.444191 4.189078 17.919679 0 0 0 0 0 0
+$definebone "laserplatform_rubble103" "" 6.66895 4.905061 -11.880325 -6.154867 -14.377422 42.907668 0 0 0 0 0 0
+$definebone "laserplatform_rubble62" "" -64.244499 4.499454 -4.92989 1.288714 69.943603 -21.807448 0 0 0 0 0 0
+$definebone "laserplatform_rubble65" "" -88.084839 3.146396 -33.528423 5.466359 21.765684 -3.691904 0 0 0 0 0 0
+$definebone "laserplatform_rubble118" "" 49.298115 6.524306 -83.319511 7.427356 -23.368763 48.415434 0 0 0 0 0 0
+$definebone "laserplatform_rubble66" "" 73.346428 4.773836 2.376444 -2.289639 -18.281886 -13.836949 0 0 0 0 0 0
+$definebone "laserplatform_rubble115" "" 67.244141 7.987425 25.443682 -25.193243 32.327261 53.591321 0 0 0 0 0 0
+$definebone "laserplatform_rubble69" "" 69.602791 14.376073 55.316757 20.265549 -22.731286 38.113156 0 0 0 0 0 0
+$definebone "laserplatform_rubble29" "" -54.53688 -0.090043 72.940117 14.647853 18.157079 6.886192 0 0 0 0 0 0
+$definebone "laserplatform_rubble28" "" 16.83935 3.022511 -15.157147 -4.635616 12.242131 7.161537 0 0 0 0 0 0
+$definebone "laserplatform_rubble25" "" -8.818308 0.173018 71.761009 -4.973053 -2.859943 -4.911107 0 0 0 0 0 0
+$definebone "laserplatform_rubble10" "" 63.21479 1.787694 -77.918053 -7.252052 -1.122688 -28.797464 0 0 0 0 0 0
+$definebone "laserplatform_rubble108" "" -6.124589 -0.0469 34.517429 -3.094432 -27.432825 20.146797 0 0 0 0 0 0
+$definebone "laserplatform_rubble116" "" 3.825868 0.350299 76.349991 -10.126034 -28.297832 46.332879 0 0 0 0 0 0
+$definebone "laserplatform_rubble105" "" 105.303589 -0.287016 -24.826538 29.14577 -25.239721 22.6736 0 0 0 0 0 0
+$definebone "laserplatform_rubble119" "" 38.520443 -2.889265 23.983065 -35.870248 -32.136228 80.030187 0 0 0 0 0 0
+$definebone "laserplatform_rubble104" "" -13.951512 5.565855 5.915951 27.020527 71.874941 -67.373423 0 0 0 0 0 0
+$definebone "laserplatform_rubble107" "" -3.918992 5.482831 44.499626 19.194447 31.747751 -90.497992 0 0 0 0 0 0
+$definebone "laserplatform_rubble68" "" -33.926235 3.700405 -0.761736 -1.414379 -22.123138 34.809598 0 0 0 0 0 0
+$definebone "laserplatform_rubble23" "" 68.099388 -0.009512 39.717674 -16.770872 -0.00013 0.000059 0 0 0 0 0 0
+$definebone "laserplatform_rubble101" "" -65.29213 0.50673 101.214622 -49.055983 -36.516537 0.402087 0 0 0 0 0 0
+$definebone "laserplatform_rubble58" "" 13.341371 -0.506026 -68.10778 -2.795418 -47.70911 -4.247833 0 0 0 0 0 0
+$definebone "laserplatform_rubble18" "" 10.030449 3.042804 0.760376 -35.587703 14.840338 60.644662 0 0 0 0 0 0
+$definebone "laserplatform_rubble38" "" -0.154544 0.26857 -9.609982 -28.717172 -7.324116 9.630527 0 0 0 0 0 0
+$definebone "laserplatform_rubble19" "" 82.288361 0.428127 50.343384 -27.964318 9.273216 -15.311684 0 0 0 0 0 0
+$definebone "laserplatform_rubble112" "" -87.734695 1.866358 132.772552 -3.969452 -19.297362 38.964856 0 0 0 0 0 0
+$definebone "laserplatform_rubble102" "" 93.24498 0.42427 63.194698 3.411367 -13.90624 55.005395 0 0 0 0 0 0
+$definebone "laserplatform_rubble11" "" -27.788902 5.747139 -109.072823 0.977465 11.157097 -6.425235 0 0 0 0 0 0
+$definebone "laserplatform_rubble109" "" 0.738109 -0.57382 29.116367 7.151889 -25.41329 33.320559 0 0 0 0 0 0
+$definebone "laserplatform_rubble12" "" -104.570152 7.267614 20.605429 5.818846 1.754239 1.337979 0 0 0 0 0 0
+$definebone "laserplatform_rubble46" "" 12.785951 5.52355 -59.412979 -15.403851 -6.229815 -3.619424 0 0 0 0 0 0
+$definebone "laserplatform_rubble13" "" -45.209515 -0.011207 -69.842583 68.988087 179.999978 -179.99995 0 0 0 0 0 0
+$definebone "laserplatform_rubble59" "" -55.596348 1.434661 -2.105078 2.814825 20.959151 -7.502223 0 0 0 0 0 0
+$definebone "laserplatform_rubble14" "" 35.618797 -0.011323 -40.044407 -3.903969 -0.000028 0.000044 0 0 0 0 0 0
+$definebone "laserplatform_rubble16" "" -16.766737 3.743528 -2.781339 -26.042741 -22.380635 -76.191156 0 0 0 0 0 0
+$definebone "laserplatform_rubble113" "" -110.501198 13.667703 5.358968 14.14763 -11.889945 25.19792 0 0 0 0 0 0
+$definebone "laserplatform_rubble17" "" 10.586511 3.554841 -93.951591 -1.66082 -1.68848 -2.286491 0 0 0 0 0 0
+$definebone "laserplatform_rubble41" "" -4.828979 1.238663 -22.452084 -0.698347 -6.324324 1.643175 0 0 0 0 0 0
+$definebone "laserplatform_rubble8" "" 48.902557 2.340937 8.389157 -12.752916 9.338096 -7.12295 0 0 0 0 0 0
+$definebone "laserplatform_rubble24" "" 19.17141 -0.061922 93.59227 3.557884 -7.288529 -1.804706 0 0 0 0 0 0
+$definebone "laserplatform_rubble6" "" 43.508587 -0.252522 -57.535553 4.63275 -0.310302 -21.899229 0 0 0 0 0 0
+$definebone "laserplatform_rubble7" "" 27.457342 6.00134 -35.856041 4.298275 -1.768104 -10.46841 0 0 0 0 0 0
+$definebone "laserplatform_rubble54" "" 21.213001 3.659508 -104.864616 -1.814304 -0.660249 1.837858 0 0 0 0 0 0
+$definebone "laserplatform_rubble5" "" 38.002689 0.236932 -0.309689 -36.570653 85.874691 177.834985 0 0 0 0 0 0
+$definebone "laserplatform_rubble48" "" -95.064255 3.327174 63.369843 0.903059 -3.440892 8.708704 0 0 0 0 0 0
+$definebone "laserplatform_rubble2" "" 64.455116 9.937472 -0.332463 -8.040059 -4.073205 2.55061 0 0 0 0 0 0
+$definebone "laserplatform_rubble39" "" 69.129547 3.003485 -93.358444 -28.392082 -15.184626 -50.58808 0 0 0 0 0 0
+$definebone "laserplatform_rubble3" "" -12.104881 -0.016819 59.327011 -1.864697 -0.11315 -0.077219 0 0 0 0 0 0
+$definebone "laserplatform_rubble1" "" -30.377825 3.932665 -6.572295 -6.964571 -3.177417 -4.378578 0 0 0 0 0 0
+$definebone "laserplatform_rubble27" "" -26.851397 4.370809 -10.397726 4.848567 5.3969 -1.1823 0 0 0 0 0 0
+$definebone "laserplatform_rubble90" "" 64.914276 10.674754 30.294731 5.790558 -20.594494 24.465907 0 0 0 0 0 0
+$definebone "laserplatform_rubble88" "" 38.986244 -1.001794 130.745346 -0.222859 -25.96751 34.615457 0 0 0 0 0 0
+$definebone "laserplatform_rubble91" "" -29.557816 1.438944 116.980064 4.844428 -8.623326 47.278265 0 0 0 0 0 0
+$definebone "laserplatform_rubble55" "" 26.047894 1.983147 -5.072781 -3.180799 -5.796759 15.295683 0 0 0 0 0 0
+$definebone "laserplatform_rubble92" "" -18.002396 5.442383 24.810698 4.605741 -10.559996 44.152344 0 0 0 0 0 0
+$definebone "laserplatform_rubble93" "" 28.163704 6.902152 -15.074636 -70.089912 134.728405 83.477698 0 0 0 0 0 0
+$definebone "laserplatform_rubble132" "" 117.437912 -1.100779 -2.111584 -19.237446 -17.464823 45.320303 0 0 0 0 0 0
+$definebone "laserplatform_rubble94" "" -46.06551 0.134956 126.670425 41.278702 -3.894003 40.209033 0 0 0 0 0 0
+$definebone "laserplatform_rubble89" "" -2.38285 0.609515 110.93515 1.504294 -18.588122 27.98474 0 0 0 0 0 0
+$definebone "laserplatform_rubble95" "" -56.720047 0.223558 21.457745 30.281893 -14.403161 33.609629 0 0 0 0 0 0
+$definebone "laserplatform_rubble21" "" -27.284094 1.225205 -0.761508 2.170223 14.878071 -2.773667 0 0 0 0 0 0
+$definebone "laserplatform_rubble96" "" 9.376783 -0.421418 6.015144 11.084213 -18.201756 43.643177 0 0 0 0 0 0
+$definebone "laserplatform_rubble97" "" 29.881382 -0.455632 -115.543449 7.57673 -27.712745 30.698579 0 0 0 0 0 0
+$definebone "laserplatform_rubble56" "" -4.378131 1.432173 48.117111 -3.957803 12.295392 13.746442 0 0 0 0 0 0
+$definebone "laserplatform_rubble98" "" -36.641209 -0.168446 68.476486 21.004027 -34.350155 22.711719 0 0 0 0 0 0
+$definebone "laserplatform_rubble117" "" 39.318806 7.563453 36.691162 8.036999 -9.71014 49.048476 0 0 0 0 0 0
+$definebone "laserplatform_rubble99" "" 1.02083 2.086846 -16.752552 7.639304 -23.114115 49.262999 0 0 0 0 0 0
+$definebone "laserplatform_rubble61" "" -94.903564 1.360308 37.673901 -4.111746 70.302242 -13.295697 0 0 0 0 0 0
+$definebone "laserplatform_rubble123" "" -55.005466 0.572915 48.095615 44.546846 1.53898 36.370754 0 0 0 0 0 0
+$definebone "laserplatform_rubble122" "" 22.11862 -0.435107 -36.682865 -7.041486 -63.439501 21.554458 0 0 0 0 0 0
+$definebone "laserplatform_rubble20" "" -17.810785 0.468424 43.06089 10.758191 5.086691 -8.167896 0 0 0 0 0 0
+$definebone "laserplatform_rubble120" "" -4.132995 0.917823 80.939568 6.742868 -13.724341 58.784549 0 0 0 0 0 0
+$definebone "laserplatform_rubble111" "" 5.112083 3.081865 -66.417091 -2.664113 -20.204644 45.368773 0 0 0 0 0 0
+$definebone "laserplatform_rubble127" "" 14.421315 3.115275 23.921827 -29.486678 59.151337 5.407631 0 0 0 0 0 0
+$definebone "laserplatform_rubble50" "" -23.087658 2.220666 4.265796 3.022088 62.527178 -1.109394 0 0 0 0 0 0
+
+
+$sectionframes 30 200
+
+$sequence "BindPose" {
+	"laserplatform_rubble_anims\BindPose.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$sequence "anim_idle" {
+	"laserplatform_rubble_anims\anim_idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 24
+}
+
+$sequence "anim_idle_end" {
+	"laserplatform_rubble_anims\anim_idle_end.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 24
+}
+
+$sequence "anim" {
+	"laserplatform_rubble_anims\anim.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 24
+}
+
+$keyvalues
+{
+}
