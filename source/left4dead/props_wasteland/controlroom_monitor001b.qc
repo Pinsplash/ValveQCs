@@ -1,0 +1,45 @@
+// Created by Crowbar 0.74
+
+$modelname "props_wasteland/controlroom_monitor001b.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "controlroom_monitor001b_reference.smd"
+}
+
+
+$surfaceprop "metal"
+
+$contents "solid"
+
+$illumposition 0 0 0
+
+$cdmaterials "models\props_wasteland\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -17.738 -14.335 -20.576 17.956 14.335 21.006
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"controlroom_monitor001b_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "controlroom_monitor001b_physics.smd"
+{
+	$mass 90
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 12
+
+}

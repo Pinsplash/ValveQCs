@@ -1,0 +1,52 @@
+// Created by Crowbar 0.74
+
+$modelname "props_foliage/tree_trunk_chunk04.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "tree_trunk_chunk04.smd"
+}
+
+
+$surfaceprop "wood"
+
+$contents "solid"
+
+$illumposition -14.209 -2.637 11.276
+
+$cdmaterials "models\props_foliage\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -6.586 -29.084 1.282 11.859 0.666 21.271
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"tree_trunk_chunk04_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "tree_trunk_chunk04_physics.smd"
+{
+	$mass 85
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+
+}
+
+$keyvalues
+{
+	prop_data 
+	{
+		"base" "Wooden.Small"
+		"allowstatic" "1"
+	}
+}
