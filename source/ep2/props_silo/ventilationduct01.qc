@@ -1,0 +1,46 @@
+// Created by Crowbar 0.74
+
+$modelname "props_silo\VentilationDuct01.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "VentilationDuct01_REF.smd"
+}
+
+
+$surfaceprop "metal"
+
+$contents "solid"
+
+$illumposition 0 0 17.608
+
+$cdmaterials "models\props_silo\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -16.048 -15.94 -0.243 15.832 15.94 35.438
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"ventilationduct01_anims\idle.smd"
+	activity "act_idle" 1
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "ventilationduct01_physics.smd"
+{
+	$mass 500
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 5
+
+}
