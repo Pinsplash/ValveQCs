@@ -1,0 +1,45 @@
+// Created by Crowbar 0.74
+
+$modelname "lostcoast\props_monastery\interior_dome_door_divide.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "interior_dome_door_reference.smd"
+}
+
+
+$surfaceprop "stone"
+
+$contents "solid"
+
+$illumposition 112.001 -98.409 120
+
+$cdmaterials "lostcoast\models\props_monastery\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -0.281 -0.281 -0.282 206.577 224.284 240.281
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"interior_dome_door_divide_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "interior_dome_door_divide_physics.smd"
+{
+	$mass 500
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 20
+
+}
