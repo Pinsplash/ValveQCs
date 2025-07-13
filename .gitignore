@@ -11,3 +11,7 @@
 #some of these in l4d2. don't know purpose.
 *.phz
 *.tga
+*.vmf
+*.vmx
+*.3ds
+*.dxf
