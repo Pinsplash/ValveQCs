@@ -1,0 +1,71 @@
+// Created by Crowbar 0.74
+
+$modelname "props_combine\CombineInnerwallCluster1024_002a.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "CombineInnerwallCluster1024_002a_reference.smd"
+}
+
+$lod 250
+{
+	replacemodel "CombineInnerwallCluster1024_002a_reference.smd" "CombineInnerwallCluster1024_002a_reference_lod1.smd"
+	nofacial
+}
+$lod 350
+{
+	replacemodel "CombineInnerwallCluster1024_002a_reference.smd" "CombineInnerwallCluster1024_002a_reference_lod2.smd"
+	nofacial
+}
+$lod 450
+{
+	replacemodel "CombineInnerwallCluster1024_002a_reference.smd" "CombineInnerwallCluster1024_002a_reference_lod3.smd"
+	nofacial
+}
+$lod 500
+{
+	replacemodel "CombineInnerwallCluster1024_002a_reference.smd" "CombineInnerwallCluster1024_002a_reference_lod4.smd"
+	nofacial
+}
+
+$surfaceprop "combine_metal"
+
+$contents "solid"
+
+$illumposition 0 0 0
+
+$cdmaterials "models\props_combine\"
+
+$texturegroup "skinfamilies"
+{
+	{ "Combine_InnerWall001"       }
+	{ "Combine_InnerWall001_skin2" }
+}
+
+$cbox 0 0 0 0 0 0
+
+$bbox -347.557 -541.826 -537.454 347.807 541.576 537.204
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"combineinnerwallcluster1024_002a_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "combineinnerwallcluster1024_002a_physics.smd"
+{
+	$mass 10000
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 15
+
+}
