@@ -1,0 +1,50 @@
+// Created by Crowbar 0.74
+
+$modelname "props_lab/powerbox02b.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "powerbox02b_reference.smd"
+}
+
+$lod 8
+{
+	replacemodel "powerbox02b_reference.smd" "powerbox02b_reference_lod1.smd"
+	nofacial
+}
+
+$surfaceprop "metal"
+
+$contents "solid"
+
+$illumposition -0.134 0.452 0
+
+$cdmaterials "models\props_lab\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -6.975 -6.955 -13.364 6.282 6.847 13.288
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"powerbox02b_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "powerbox02b_physics.smd"
+{
+	$mass 7.474451
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 1
+
+}

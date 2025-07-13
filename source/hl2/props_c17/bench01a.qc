@@ -1,0 +1,73 @@
+// Created by Crowbar 0.74
+
+$modelname "props_c17/bench01a.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "bench01a_reference.smd"
+}
+
+$lod 30
+{
+	replacemodel "bench01a_reference.smd" "bench01a_reference_lod1.smd"
+	nofacial
+}
+$lod 40
+{
+	replacemodel "bench01a_reference.smd" "bench01a_reference_lod2.smd"
+	nofacial
+}
+$lod 50
+{
+	replacemodel "bench01a_reference.smd" "bench01a_reference_lod3.smd"
+	nofacial
+}
+$lod 90
+{
+	replacemodel "bench01a_reference.smd" "bench01a_reference_lod4.smd"
+	nofacial
+}
+
+$surfaceprop "Wood_Furniture"
+
+$contents "solid"
+
+$illumposition 0 0 0
+
+$cdmaterials "models\props_c17\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -12.025 -38.104 -19.786 11.667 38.011 19.945
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"bench01a_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "bench01a_physics.smd"
+{
+	$mass 20
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 16
+
+}
+
+$keyvalues
+{
+	prop_data 
+	{
+		"base" "Wooden.Large"
+	}
+}
