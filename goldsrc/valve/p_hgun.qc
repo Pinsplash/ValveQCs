@@ -1,0 +1,28 @@
+// Created by Crowbar 0.74
+
+// Stored modelname (without quotes): "valve/models/p_hgun.mdl"
+$modelname "p_hgun.mdl"
+$cd "."
+$cdtexture "."
+$cliptotextures
+$scale 1.0
+
+$bodygroup "studio"
+{
+	studio "reference_hgun"
+}
+
+$flags 0
+
+
+$cbox 0 0 0 0 0 0
+
+$bbox 0 0 0 0 0 0
+
+$hbox 0 "Bip01 Neck" -2.869898 0 -4.140396 0 1.399663 0
+$hbox 0 "02" -3.85 -3.99 -9.51 4.36 4.58 19.389999
+
+$sequence "idle" {
+	"p_hgun_anims\idle"
+	fps 30
+}
