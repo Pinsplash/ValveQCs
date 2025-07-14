@@ -1,0 +1,102 @@
+// Created by Crowbar 0.74
+
+// Stored modelname (without quotes): "U:\dev\dod\models\v_garand.mdl"
+$modelname "v_garand.mdl"
+$cd "."
+$cdtexture "."
+$cliptotextures
+$scale 1.0
+
+$bodygroup "gun"
+{
+	studio "reference"
+}
+$bodygroup "sleeve"
+{
+	studio "us_sleeve"
+	blank
+	studio "axis_sleeve"
+}
+
+$flags 0
+
+$texrendermode "skin3_test.bmp" masked
+
+$attachment 0 "Bone67" 0 -70.5 2
+$attachment 1 "Bone67" 0 -7 2
+
+$cbox 0 0 0 0 0 0
+
+$bbox 0 0 0 0 0 0
+
+$hbox 0 "Bone04" -10.61276 0 -13.685144 10.801794 9.412024 0
+$hbox 0 "Bone05" -4.08 -0.68 -2.68 4.09 17.940001 3.31
+$hbox 0 "Bone07" -2.38 0 -1 1.79 5.56 1.04
+$hbox 0 "Bone08" -1.959517 -0.71 -1.14 0.24 1.88 0.87
+$hbox 0 "Bone09" -1.63 -0.53 -0.99 0.37 1.27 0.56
+$hbox 0 "Bone10" -0.92 0 -0.8 0.11 1.06 0.45
+$hbox 0 "Bone40" -4.17 -0.72 -2.68 3.97 17.9 3.31
+$hbox 0 "Bone42" -1.86 0 -1 2.32 5.54 1.04
+$hbox 0 "Bone43" -0.23 -0.72 -1.14 1.972922 1.87 0.87
+$hbox 0 "Bone44" -0.37 -0.47 -0.95 1.63 1.33 0.6
+$hbox 0 "Bone45" -0.12 0 -0.73 0.91 1.06 0.52
+$hbox 0 "Bone67" -1.35 -71.050003 -7.98 1.31 21.24 6.41
+$hbox 0 "Bone77" -2.02 -9.78 -0.35 0 1.74 0.88
+
+$sequence "idle" {
+	"v_garand_anims\idle"
+	fps 5
+}
+$sequence "shoot1" {
+	"v_garand_anims\shoot1"
+	{ event 5001 1 "41" }
+	{ event 6002 1 "2" }
+	fps 50
+}
+$sequence "shoot2" {
+	"v_garand_anims\shoot2"
+	{ event 5001 1 "41" }
+	{ event 6002 1 "2" }
+	fps 50
+}
+$sequence "shoot3" {
+	"v_garand_anims\shoot3"
+	{ event 5001 1 "41" }
+	{ event 6002 1 "2" }
+	fps 50
+}
+$sequence "shoot_empty" {
+	"v_garand_anims\shoot_empty"
+	{ event 5001 1 "41" }
+	{ event 6001 1 "2" }
+	fps 100
+}
+$sequence "reload" {
+	"v_garand_anims\reload"
+	{ event 5004 48 "weapons/garand_reload_clipin.wav" }
+	fps 50
+}
+$sequence "draw" {
+	"v_garand_anims\draw"
+	{ event 5004 1 "weapons/rifleselect.wav" }
+	fps 40
+}
+$sequence "empty_idle" {
+	"v_garand_anims\empty_idle"
+	fps 30
+}
+$sequence "draw_empty" {
+	"v_garand_anims\draw_empty"
+	{ event 5004 1 "weapons/rifleselect.wav" }
+	fps 40
+}
+$sequence "smash" {
+	"v_garand_anims\smash"
+	{ event 5004 1 "weapons/rifleselect.wav" }
+	fps 75
+}
+$sequence "smash_empty" {
+	"v_garand_anims\smash_empty"
+	{ event 5004 1 "weapons/rifleselect.wav" }
+	fps 75
+}
