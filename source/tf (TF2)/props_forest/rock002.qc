@@ -1,0 +1,50 @@
+// Created by Crowbar 0.74
+
+$modelname "props_forest\rock002.mdl"
+
+$staticprop
+
+$bodygroup "Body"
+{
+	studio "rock002_reference.smd"
+}
+
+$lod 75
+{
+	replacemodel "rock002_reference.smd" "rock002_reference_lod1.smd"
+	nofacial
+}
+
+$surfaceprop "dirt"
+
+$contents "solid"
+
+$illumposition 0 0 139.219
+
+$cdmaterials "models\props_forest\"
+
+$cbox 0 0 0 0 0 0
+
+$bbox -98.243 -129.104 -0.996 98.243 129.104 278.688
+
+$definebone "static_prop" "" 0 0 0 0 0 0 0 0 0 0 0 0
+
+
+$sequence "idle" {
+	"rock002_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "rock002_physics.smd"
+{
+	$mass 80
+	$inertia 1
+	$damping 0
+	$rotdamping 0
+	$rootbone " "
+	$concave
+	$maxconvexpieces 6
+
+}

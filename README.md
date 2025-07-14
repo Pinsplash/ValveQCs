@@ -16,7 +16,7 @@ Source games:
 * **Left 4 Dead 2:** ✔
 * **Portal**: ✔
 * **Portal 2**: ✔
-* **Team Fortress 2:** ❌
+* **Team Fortress 2:** ✔ (workshop and workshop_partner folders not included)
 
 Goldsource games:
 
@@ -31,8 +31,15 @@ Goldsource games:
 * **Ricochet:** ❌
 * **Team Fortress Classic:** ❌
 
-Only models in loose files or VPKs were decompiled (not ones packed in maps).
+Only models in loose files or VPKs were included (not ones packed in maps).
 
-All games released pre-2008 have an "hl2" folder containing models that are the same as current HL2, except that they lack 6 changes made in the 20th anniversary update. These older versions of the models were only included in the HL2DM folder.
+All games released pre-2008 have an "hl2" folder containing models that are the same as current HL2, except that 6 of the models do not have changes made in the 20th anniversary update. (Except Portal apparently, which does have the up-to-date models?) These older versions of the models were only included in the HL2DM folder.
+
+* `props_foliage/tree_deciduous_card_01`
+* `props_foliage/tree_deciduous_card_01_skybox`
+* `props_skybox/coast01`
+* `weapons/v_crossbow`
+* `weapons/v_rpg`
+* `zombie/fast`
 
 This repo exists for the purpose of searching for certain things, but you should not use the GitHub search function because it is garbage. Please use Notepad++.

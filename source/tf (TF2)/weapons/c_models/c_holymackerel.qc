@@ -1,0 +1,107 @@
+// Created by Crowbar 0.74
+
+$modelname "weapons\c_models\c_holymackerel.mdl"
+
+$bodygroup "Body"
+{
+	studio "c_holymackerel.smd"
+}
+
+
+$surfaceprop "metal"
+
+$contents "solid"
+
+$illumposition 0.457 -0.45 11.121
+
+$cdmaterials "models\weapons\c_items"
+$cdmaterials "\models\weapons\c_items\"
+$cdmaterials ""
+
+$cbox 0 0 0 0 0 0
+
+$bbox -4.166 -3.822 -2.191 5.065 4.659 24.381
+
+$definebone "weapon_bone" "" 0 0 0 0 0 0 0 0 0 0 0 0
+$definebone "jiggle1" "weapon_bone" 0.192925 10.981835 0.193602 -90.000003 -90.000003 0 0 0 0 0 0 0
+$definebone "jiggle2" "jiggle1" -0.004923 -0.021198 5.266362 0 0 0 0 0 0 0 0 0
+$definebone "jiggle3" "jiggle2" -0.003926 -0.016905 4.199743 0 0 0 0 0 0 0 0 0
+$definebone "jiggle4" "jiggle3" -0.003393 -0.01461 3.629768 0 0 0 0 0 0 0 0 0
+
+$jigglebone "jiggle1"
+{
+	is_flexible
+	{
+		length 20
+		tip_mass 10
+		pitch_stiffness 100
+		pitch_damping 10
+		yaw_stiffness 50
+		yaw_damping 10
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 30.000001
+	}
+}
+$jigglebone "jiggle2"
+{
+	is_flexible
+	{
+		length 15
+		tip_mass 10
+		pitch_stiffness 100
+		pitch_damping 10
+		yaw_stiffness 50
+		yaw_damping 10
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 19.999999
+	}
+}
+$jigglebone "jiggle3"
+{
+	is_flexible
+	{
+		length 10
+		tip_mass 10
+		pitch_stiffness 100
+		pitch_damping 10
+		yaw_stiffness 50
+		yaw_damping 10
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 15
+	}
+}
+$jigglebone "jiggle4"
+{
+	is_flexible
+	{
+		length 5
+		tip_mass 10
+		pitch_stiffness 100
+		pitch_damping 10
+		yaw_stiffness 50
+		yaw_damping 10
+		along_stiffness 100
+		along_damping 0
+		angle_constraint 10
+	}
+}
+
+$sequence "idle" {
+	"c_holymackerel_anims\idle.smd"
+	fadein 0.2
+	fadeout 0.2
+	fps 30
+}
+
+$collisionmodel "c_holymackerel_physics.smd"
+{
+	$mass 1.788893
+	$inertia 1
+	$damping 0
+	$rotdamping 4
+	$rootbone " "
+
+}
