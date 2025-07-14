@@ -33,7 +33,7 @@ Goldsource games:
 
 Only models in loose files or VPKs were included (not ones packed in maps).
 
-All games released pre-2008 have an "hl2" folder containing models that are the same as current HL2, except that 6 of the models do not have changes made in the 20th anniversary update. (Except Portal apparently, which does have the up-to-date models?) These older versions of the models were only included in the HL2DM folder.
+All Source games released 2004-2007 have an "hl2" folder containing models that are the same as current HL2, except that 6 of the models do not have changes made in the 20th anniversary update. (Except Portal apparently, which does have the up-to-date models?) These older versions of the models were only included in the HL2DM folder.
 
 * `props_foliage/tree_deciduous_card_01`
 * `props_foliage/tree_deciduous_card_01_skybox`
