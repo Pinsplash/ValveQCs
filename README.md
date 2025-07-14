@@ -20,16 +20,16 @@ Source games:
 
 Goldsource games:
 
-* **Counter-Strike:** ❌
-* **Counter-Strike: Condition Zero:** ❌
-* **Counter-Strike: Condition Zero Deleted Scenes:** ❌
-* **Day of Defeat:** ❌
-* **Deathmatch Classic:** ❌
+* **Counter-Strike:** ✔
+* **Counter-Strike: Condition Zero:** ✔
+* **Counter-Strike: Condition Zero Deleted Scenes:** ✔
+* **Day of Defeat:** ✔
+* **Deathmatch Classic:** ✔
 * **Half-Life:** ❌
 * **Half-Life: Opposing Force:** ❌
 * **Half-Life: Blue Shift:** ❌
-* **Ricochet:** ❌
-* **Team Fortress Classic:** ❌
+* **Ricochet:** ✔
+* **Team Fortress Classic:** ✔
 
 Only models in loose files or VPKs were included (not ones packed in maps).
 
